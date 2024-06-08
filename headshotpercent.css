@@ -1,0 +1,121 @@
+html, body {
+  margin: 0 auto;
+  padding: 0;
+  background: #1F3A39;
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background: none;
+  overflow: hidden;
+}
+
+.btncalcul {
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  
+  position: absolute;
+  top: 25%;
+  left: calc(50% - 100px);
+  width: 200px;
+  height: 30px;
+  background: linear-gradient(45deg, #28B619, #1F7116, #28B619);
+  /*background: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);*/
+  background-size: 180%;
+  color: #D6FFD2;
+  border: none;
+  border-radius: 20px;
+  font-family: Roboto, 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  /*padding: 7px , 10px;*/
+  filter: drop-shadow(0 0 0.5em rgba(44, 187, 99, 0.6));
+  transition: 0.2s;
+  /*z-index: 2;*/
+} 
+
+.btncalcul:active {
+  background-position-x: 88%;
+}
+
+.normalKills {
+  position: absolute;
+  top: 15%;
+  left: 2%;
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background: #155140;
+  font-family: Roboto, 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #C6DE59; 
+}
+
+.normalKills::placeholder {
+  color: #C6DE59;
+  opacity: 0.7;
+} 
+
+.headshotKills {
+  position: absolute;
+  top: 15%;
+  right: 2%;
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background: #155140;
+  font-family: Roboto, 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #C6DE59; 
+} 
+
+.headshotKills::placeholder {
+  color: #C6DE59;
+  opacity: 0.7;
+}
+
+.screen {
+  position: absolute;
+  top: calc(5%/2);
+  left: 5%;
+  width: 90%;
+  height: 10%;
+  background: #28504D;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 5vh;
+  font-family: Roboto, 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #9FCC6B;
+}
+
+.gamehistory {
+  position: absolute;
+  top: 35%;
+  left: 5%;
+  width: 90%;
+  height: 60%;
+  background: #133329;
+  overflow: hidden;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 5vh;
+  font-family: Roboto, 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #76DCC2;
+  opacity: 0.9;
+}
